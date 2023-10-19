@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-gesture-handler/src/components/DrawerLayout.tsx b/node_modules/react-native-gesture-handler/src/components/DrawerLayout.tsx
+index 479b361..dc223eb 100644
+--- a/node_modules/react-native-gesture-handler/src/components/DrawerLayout.tsx
++++ b/node_modules/react-native-gesture-handler/src/components/DrawerLayout.tsx
+@@ -47,7 +47,7 @@ const SETTLING: DrawerState = 'Settling';
+ 
+ export type DrawerPosition = 'left' | 'right';
+ 
+-export type DrawerState = 'Idle' | 'Dragging' | 'Settling';
++export type DrawerState = 'Idle' | 'Dragging' | 'Settling' | 'TEST';
+ 
+ export type DrawerType = 'front' | 'back' | 'slide';
+ 
